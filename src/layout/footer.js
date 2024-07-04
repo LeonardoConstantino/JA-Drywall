@@ -1,7 +1,9 @@
 import { getComponent, getTextComponent } from '../utils/helpers'
 import { createButton } from './../components/button'
-import data from '../data/drywall.json'
+import { handleButtonClick } from '../services/handleButtonClick'
 import { formatPhoneNumber } from '../services/authService'
+
+import data from '../data/drywall.json'
 
 import eMail from '../assets/images/EMail.svg'
 import instagram from '../assets/images/Instagram.svg'
@@ -33,7 +35,12 @@ const form = getComponent(
   'form',
   label,
   input,
-  createButton('Orçamento sem compromisso', null, null, 'cta-final')
+  createButton(
+    'Orçamento sem compromisso',
+    handleButtonClick,
+    null,
+    'cta-final'
+  )
 )
 
 const getAnchor = (link, nome) => {
@@ -48,7 +55,7 @@ const getAnchor = (link, nome) => {
 const componentEMail = getComponent(
   'li',
   getIconComponet(eMail),
-  getAnchor('', 'E-mail: ')
+  getAnchor(data.body.contact.email, `E-mail: ${data.body.contact.email}`)
 )
 
 const componentInsta = getComponent(
@@ -75,10 +82,11 @@ const socialLinks = getComponent(
   componentInsta,
   componentWhatsapp
 )
+socialLinks.props.class = 'social-links'
 
 const floatWhatsapp = createButton(
   '',
-  null,
+  handleButtonClick,
   whatsappIcon,
   'floatWhatsapp',
   'Chama no WhatsApp'
@@ -97,27 +105,3 @@ const createFooter = () => {
 }
 
 export const footer = createFooter()
-
-{
-  /*
-  <li>
-    <i></i>
-    <a href=""></a>
-  </li>
-*/
-}
-
-// const titulo = 'Gera lista\n[̲̅b̲̅y̲̅l̲̅є̲̅σ̲̅]\n\n'
-//     const linkApi = 'https://api.whatsapp.com/send?phone=55'
-//     const texto = `&text=${titulo}${textarea.value}`
-//     const pattern = /^\(?\d{2}\)?[\s-]?[\s9]\d{4}-?\d{4}$/i;
-
-//     if (!inputTelefone.value || !inputTelefone.value.match(pattern)) {
-//         mostrarMsgErroTel()
-//         return
-//     }
-
-//     const telefone = inputTelefone.value.match(pattern)[0]
-//     const linkCompleto = linkApi + telefone + encodeURI(texto)
-
-//     window.open(linkCompleto)

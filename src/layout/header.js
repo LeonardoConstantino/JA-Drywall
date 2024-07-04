@@ -1,13 +1,17 @@
 import { getComponent, getTextComponent } from '../utils/helpers'
 import { createButton } from './../components/button'
+
 import data from '../data/drywall.json'
 
-import logoja from '../assets/images/logoja.png';
-import capa from '../assets/images/capa.png';
+import logoja from '../assets/images/logoja.webp'
+import capa from '../assets/images/capa.webp'
+import { handleButtonClick } from '../services/handleButtonClick'
 
 const img = getComponent('img')
 img.props.src = logoja
-img.props.alt = 'Logo da Empresa'
+img.props.alt = `Logo ${data.longName}`
+img.props.width = '128'
+img.props.height = '91'
 
 const logo = getComponent('div', img)
 logo.props.class = 'hero-logo'
@@ -21,7 +25,12 @@ subheadline.props.class = 'hero-text--subheadline'
 const text = getComponent('div', headline, subheadline)
 text.props.class = 'hero-text'
 
-const btnCta = createButton(data.callToAction, null, null, 'cta-btn hvr-radial-out')
+const btnCta = createButton(
+  data.callToAction,
+  handleButtonClick,
+  null,
+  'cta-btn hvr-radial-out'
+)
 
 const cta = getComponent('div', btnCta)
 cta.props.class = 'hero-cta'

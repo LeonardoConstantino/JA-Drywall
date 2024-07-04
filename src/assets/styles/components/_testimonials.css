@@ -1,0 +1,38 @@
+main section.testimonials{
+    padding: 0;
+  }
+  
+  main .testimonials .card {
+    width: 300px;
+    height: 15.625rem;
+    border: 1px solid var(--text);
+    background-color: var(--accent);
+    justify-content: space-between;
+  }
+  
+  main .testimonials .author {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    color: var(--background);
+    gap: var(--spacing-pp);
+  }
+  
+  main .testimonials .avatar {
+    width: var(--spacing-xg);
+    object-fit: contain;
+  }
+  
+  main .testimonials .rating {
+    width: 100%;
+    display: flex;
+    gap: var(--spacing-xp);
+  }
+  
+  main .testimonials .card .text {
+    text-align: left;
+  }
+  
+  main .testimonials .card:hover {
+    box-shadow: var(--accent) var(--box-shadow-heavy);
+  }

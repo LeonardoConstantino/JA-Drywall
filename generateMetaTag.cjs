@@ -4,7 +4,7 @@ const path = require('path')
 const pathData = path.join(`${__dirname}/src/data/drywall.json`)
 const filePath = path.join(`${__dirname}/index.html`)
 
-const modifyFile = async () => {
+const generateMetaTag = async () => {
   try {
       const index = await fs.readFile(filePath, 'utf8')
       const datajson = await fs.readFile(pathData, 'utf8')
@@ -81,4 +81,4 @@ const modifyFile = async () => {
   }
 }
 
-modifyFile()
+generateMetaTag()

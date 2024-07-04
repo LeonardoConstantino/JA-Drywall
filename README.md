@@ -6,7 +6,7 @@
 
 ## Descrição
 
-Descrição...
+A JA Soluções em Drywall é líder no mercado de serviços de drywall, oferecendo soluções inovadoras e eficientes para construtoras e proprietários. Com mais de 10 anos de experiência, nossa missão é proporcionar construções mais limpas, rápidas e econômicas, mantendo um compromisso constante com a qualidade e a satisfação do cliente.
 
 ## Instalação
 
@@ -48,8 +48,8 @@ Após a instalação, siga os passos abaixo para rodar o projeto:
 
 3. Acesse o aplicativo no navegador e preencha o formulário para calcular o preço do papel higiênico.
 
-## Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/LeonardoConstantino/JA-Drywall/blob/main/LICENSE.txt) para mais detalhes.
+<!-- ## Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/LeonardoConstantino/JA-Drywall/blob/main/LICENSE.txt) para mais detalhes. -->
 
 ## Créditos
 Autor: Leonardo H. Constantino

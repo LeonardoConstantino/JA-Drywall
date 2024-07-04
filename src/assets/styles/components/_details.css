@@ -11,8 +11,8 @@ summary {
   margin-bottom: 0.5rem;
 }
 
- summary i.arrow {
-  transition: 0.3s;
+summary i.arrow {
+  transition: all 0.3s;
 }
 
 details[open] > summary i.arrow {
@@ -22,6 +22,13 @@ details[open] > summary i.arrow {
 summary:hover,
 summary:focus {
   text-decoration: none;
+}
+
+summary:focus,
+summary:active {
+  border: 1px solid var(--accent);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-pp);
 }
 
 details[open] .open {

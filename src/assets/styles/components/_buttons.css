@@ -1,17 +1,17 @@
 button {
-  padding: calc(1rem + 1vw) calc(2rem + 1vw);
-  border-radius: 0.5rem;
+  padding: calc(var(--spacing) + 1vw) calc(var(--spacing-gg) + 1vw);
+  border-radius: var(--border-radius);
   color: var(--background);
   background-color: var(--text);
-  transition: all ease 250ms;
+  transition: all ease var(--transition);
   cursor: pointer;
 }
 
 button:hover {
-  transform: translate(0, -0.125rem);
+  transform: translate(0, -calc(var(--spacing)/2));
   color: var(--text);
   background-color: var(--accent);
-  box-shadow: 0 1.25rem 5rem -0.625rem var(--accent);
+  box-shadow: var(--box-shadow-x-heavy) var(--accent);
 }
 
 button:active,  button:focus{

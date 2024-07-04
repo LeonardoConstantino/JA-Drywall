@@ -20,89 +20,136 @@ footer form {
   gap: var(--spacing-pp);
 }
 
-footer form input {
+footer form input,
+footer form button.cta-final {
   border: none;
-  flex: 1 1 10ch;
-  /* margin: .5rem; */
-  background: var(--background);
   border-radius: var(--spacing-pp);
   padding: 0.75rem var(--spacing);
+  transition: all var(--transition);
+}
+
+footer form input {
+  flex: 1 1 10ch;
+  background: var(--background);
 }
 
 footer form input::placeholder {
   color: var(--secondary);
 }
 
+footer form input:active,
+footer form input:focus,
+footer form button.cta-final:active,
+footer form button.cta-final:focus {
+  outline: 1px solid var(--primary);
+  border: 1px solid var(--primary);
+}
+
 footer form button.cta-final {
-  /* width: 100%; */
   background: var(--accent);
   color: var(--text);
-  padding: 0.75rem var(--spacing);
-  transition: all var(--transition);
 }
 
 footer form button.cta-final:hover {
   box-shadow: var(--box-shadow-x-light) var(--secondary);
 }
 
-footer ol li{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    gap: var(--spacing-pp);
-    margin-bottom: var(--spacing);
+footer .social-links li {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: var(--spacing-pp);
+  margin-bottom: var(--spacing);
 }
 
-footer ol li i {
-    background-image: var(--image-url);
-    transform: scale(0.8);
+footer .social-links a {
+  color: var(--background);
+  padding-bottom: 1px;
+  transition: all 250ms;
+  position: relative;
 }
 
-footer .floatWhatsapp{
-    background-color: transparent;
-    border: none;
-    cursor: auto;
-    position: fixed;
-    padding: 0;
-    bottom: var(--spacing-gg);
-    right: var(--spacing-gg);
-    border-radius: var(--border-radius-round);
+footer .social-links a::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  transform: translateY(3px);
+  background: var(--accent);
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
-footer .floatWhatsapp:hover, .floatWhatsapp:active, .floatWhatsapp:focus{
-    box-shadow: none;
-    transform: none;
-    color: transparent;
-    border: none;
-    background-color: transparent;
-    outline: none;
+footer .social-links a:hover::after,
+footer .social-links a:focus::after,
+footer .social-links a:active::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+footer .social-links i {
+  background-image: var(--image-url);
+  transform: scale(0.8);
+}
+
+footer .floatWhatsapp {
+  background-color: transparent;
+  border: none;
+  cursor: auto;
+  position: fixed;
+  padding: 0;
+  bottom: var(--spacing-gg);
+  right: var(--spacing-gg);
+  border-radius: var(--border-radius-round);
+}
+
+footer .floatWhatsapp:hover,
+footer .floatWhatsapp:active,
+footer .floatWhatsapp:focus {
+  box-shadow: var(--box-shadow-x-heavy) var(--secondary);
+  transform: none;
+  color: transparent;
+  border: none;
+  background-color: transparent;
+  outline: none;
 }
 
 footer .floatWhatsapp i {
-    position: relative;
-    filter: drop-shadow(3px 3px 6px var(--secondary));
-    transform: scale(1.5);
-    cursor: pointer;
-    animation: bouncy 2s infinite linear;
+  position: relative;
+  filter: drop-shadow(3px 3px 6px var(--secondary));
+  transform: scale(1.5);
+  cursor: pointer;
+  animation: var(--animation-shake);
 }
 
-footer .floatWhatsapp i::after{
-    content: '1';
-    text-align: center;
-    position: relative;
-    display: block;
-    width: 2ch;
-    height: 2ch;
-    background-color: red;
-    color: white;
-    font-size: 10px;
-    border-radius: var(--border-radius-round);
-    left: 22px;
-    bottom: 0px;
+footer .floatWhatsapp i:hover {
+  animation-play-state: paused;
+}
+
+footer .floatWhatsapp i::after {
+  content: '1';
+  text-align: center;
+  position: relative;
+  display: block;
+  width: 2ch;
+  height: 2ch;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  border-radius: var(--border-radius-round);
+  left: 22px;
+  bottom: 0px;
 }
 
 @media (max-width: 768px) {
   footer form button.cta-final {
-  width: 100%;
+    width: 100%;
+  }
+
+  footer .floatWhatsapp {
+    bottom: var(--spacing-xg);
+    right: var(--spacing-xg);
   }
 }

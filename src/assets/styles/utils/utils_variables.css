@@ -13,6 +13,10 @@
   --border-radius-round: 50%;
 
   --transition: 250ms;
+  --animation-shake: shake-bottom 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    infinite;
+  --animation-shake-cta: shake-bottom 2.5s
+    cubic-bezier(0.455, 0.03, 0.515, 0.955) 5s 10 both;
 
   --shadow-offset-h: 1px;
   --shadow-offset-v: 1px;
@@ -32,8 +36,7 @@
     calc(var(--shadow-blur) * 2) calc(var(--shadow-spread) * 1.5);
 
   --box-shadow-x-heavy: var(--shadow-offset-h) var(--shadow-offset-v)
-    calc(var(--shadow-blur) * 3) calc(var(--shadow-spread) * 2);
-
+    calc(var(--shadow-blur) * 8) calc(var(--shadow-spread) * 6);
 }
 
 @media (max-width: 768px) {

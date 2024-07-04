@@ -3,28 +3,15 @@
 
 @import url('./components/_buttons.css');
 @import url('./components/_carousel.css');
-@import url('./components/_dropdown.css');
+@import url('./components/_testimonials.css');
 @import url('./components/_details.css');
+@import url('./components/_loader.css');
 
-@import url('./layout/layout_navigation.css');
-@import url('./layout/layout_grid.css');
 @import url('./layout/layout_header.css');
 @import url('./layout/layout_footer.css');
 @import url('./layout/layout_main.css');
-@import url('./layout/layout_forms.css');
 @import url('./layout/layout_page.css');
-
-@import url('./pages/pages_home.css');
-@import url('./pages/pages_contact.css');
-
-@import url('./themes/themes_theme.css');
-@import url('./themes/themes_admin.css');
 
 @import url('./utils/utils_variables.css');
 @import url('./utils/utils_animations.css');
-@import url('./utils/utils_mixins.css');
 @import url('./utils/utils_helpers.css');
-
-@import url('./vendors/vendors_bootstrap.css');
-@import url('./vendors/vendors_jquery-ui.css');
-/* @import url('./vendors/vendors_water.css'); */

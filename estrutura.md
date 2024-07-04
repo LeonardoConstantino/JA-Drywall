@@ -1,5 +1,79 @@
 # Explicação da Estrutura
 
+```
+    📦JA-Drywall
+    ┣ 📂src
+    ┃ ┣ 📂assets
+    ┃ ┃ ┣ 📂images
+    ┃ ┃ ┃ ┣ 📜arrow.svg
+    ┃ ┃ ┃ ┣ 📜BenefitsImage0.webp
+    ┃ ┃ ┃ ┣ 📜BenefitsImage1.webp
+    ┃ ┃ ┃ ┣ 📜BenefitsImage2.webp
+    ┃ ┃ ┃ ┣ 📜BenefitsImage3.webp
+    ┃ ┃ ┃ ┣ 📜BenefitsImage4.webp
+    ┃ ┃ ┃ ┣ 📜BenefitsImage5.webp
+    ┃ ┃ ┃ ┣ 📜capa.webp
+    ┃ ┃ ┃ ┣ 📜EMail.svg
+    ┃ ┃ ┃ ┣ 📜favicon.ico
+    ┃ ┃ ┃ ┣ 📜Instagram.svg
+    ┃ ┃ ┃ ┣ 📜logoja.webp
+    ┃ ┃ ┃ ┣ 📜print.png
+    ┃ ┃ ┃ ┣ 📜TestimonialsAvatar0.webp
+    ┃ ┃ ┃ ┣ 📜TestimonialsAvatar1.webp
+    ┃ ┃ ┃ ┣ 📜TestimonialsAvatar2.webp
+    ┃ ┃ ┃ ┣ 📜TestimonialsAvatar3.webp
+    ┃ ┃ ┃ ┗ 📜WhatsappIcon.svg
+    ┃ ┃ ┗ 📂styles
+    ┃ ┃ ┃ ┣ 📂base
+    ┃ ┃ ┃ ┃ ┣ 📜_reset.css
+    ┃ ┃ ┃ ┃ ┗ 📜_typography.css
+    ┃ ┃ ┃ ┣ 📂components
+    ┃ ┃ ┃ ┃ ┣ 📜_buttons.css
+    ┃ ┃ ┃ ┃ ┣ 📜_carousel.css
+    ┃ ┃ ┃ ┃ ┣ 📜_details.css
+    ┃ ┃ ┃ ┃ ┣ 📜_loader.css
+    ┃ ┃ ┃ ┃ ┗ 📜_testimonials.css
+    ┃ ┃ ┃ ┣ 📂layout
+    ┃ ┃ ┃ ┃ ┣ 📜layout_footer.css
+    ┃ ┃ ┃ ┃ ┣ 📜layout_header.css
+    ┃ ┃ ┃ ┃ ┣ 📜layout_main.css
+    ┃ ┃ ┃ ┃ ┗ 📜layout_page.css
+    ┃ ┃ ┃ ┣ 📂utils
+    ┃ ┃ ┃ ┃ ┣ 📜utils_animations.css
+    ┃ ┃ ┃ ┃ ┣ 📜utils_helpers.css
+    ┃ ┃ ┃ ┃ ┗ 📜utils_variables.css
+    ┃ ┃ ┃ ┗ 📜main.css
+    ┃ ┣ 📂components
+    ┃ ┃ ┣ 📜button.js
+    ┃ ┃ ┣ 📜clientTestimonials.js
+    ┃ ┃ ┣ 📜details.js
+    ┃ ┃ ┗ 📜featuresBenefits.js
+    ┃ ┣ 📂data
+    ┃ ┃ ┗ 📜drywall.json
+    ┃ ┣ 📂layout
+    ┃ ┃ ┣ 📜footer.js
+    ┃ ┃ ┗ 📜header.js
+    ┃ ┣ 📂pages
+    ┃ ┃ ┗ 📜home.js
+    ┃ ┣ 📂services
+    ┃ ┃ ┣ 📜authService.js
+    ┃ ┃ ┗ 📜handleButtonClick.js
+    ┃ ┣ 📂utils
+    ┃ ┃ ┣ 📜helpers.js
+    ┃ ┃ ┗ 📜renderElement.js
+    ┃ ┗ 📜main.js
+    ┣ 📜.gitattributes
+    ┣ 📜.gitignore
+    ┣ 📜estrutura.md
+    ┣ 📜generateMetaTag.cjs
+    ┣ 📜index.html
+    ┣ 📜LICENSE.txt
+    ┣ 📜package-lock.json
+    ┣ 📜package.json
+    ┣ 📜README.md
+    ┗ 📜vite.config.js
+```
+
 | pasta/arquivo | conteúdo |
 |:---:|:---|
 | components/ | Contém componentes reutilizáveis que podem ser usados em várias partes da aplicação. |

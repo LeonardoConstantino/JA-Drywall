@@ -9,7 +9,6 @@ const icon = {
   },
 }
 
-
 /**
  * Função para criar um componente de detalhes.
  *
@@ -46,12 +45,8 @@ export const getDetails = (textOpen, textClose, open, ...children) => {
       children: [
         getComponent(
           'summary',
-           getComponent(
-            'h5', 
-            getTextComponent(textClose)
-          ),
+          getComponent('h5', getTextComponent(textClose)),
           icon
-
         ),
         ...children,
       ],

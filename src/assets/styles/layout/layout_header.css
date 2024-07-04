@@ -1,5 +1,6 @@
 header.hero-image {
   min-height: 70vh;
+  background-color: #a39c91;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.2),
       rgba(255, 255, 255, 0.2)
@@ -66,11 +67,12 @@ header .hero-cta span {
 
 header .cta-btn {
   position: relative;
-  animation: bouncy 5s infinite linear;
+  animation: bouncy 2s infinite cubic-bezier(0.455, 0.030, 0.515, 0.955);
 }
 
 header .cta-btn:hover {
   background-color: transparent;
+  animation-play-state: paused;
 }
 
 header .hvr-radial-out {

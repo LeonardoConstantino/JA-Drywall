@@ -105,34 +105,6 @@ main .benefits .card:hover {
   box-shadow: var(--accent) var(--box-shadow-heavy);
 }
 
-main .testimonials .card {
-  border: 1px solid var(--text);
-  background-color: var(--accent);
-}
-
-main .testimonials .author {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  color: var(--background);
-  gap: var(--spacing-pp);
-}
-
-main .testimonials .avatar {
-  width: var(--spacing-xg);
-  object-fit: contain;
-}
-
-main .testimonials .rating {
-  width: 100%;
-  display: flex;
-  gap: var(--spacing-xp);
-}
-
-main .testimonials .card:hover {
-  box-shadow: var(--accent) var(--box-shadow-heavy);
-}
-
 main .faq {
   display: flex;
   flex-flow: column nowrap;

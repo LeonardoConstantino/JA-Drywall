@@ -90,30 +90,30 @@
     "callToActionRepetition": "Não perca tempo! Transforme seu projeto com nossa solução em drywall. Entre em contato agora mesmo para uma consulta gratuita e descubra como JA Soluções em Drywall pode ajudar você a construir de forma limpa, econômica e ágil.",
     "callToActionFinal": "Clique Aqui e Agende Sua Consulta Gratuita!"
   },
-  "colors":{
+  "colors": {
     "text": "#03293e",
     "background": "#f4f2f1",
     "primary": "#728a9a",
     "secondary": "#a9aac2",
     "accent": "#afbab2"
-   },
-   "darkColors": {
+  },
+  "darkColors": {
     "text": "#c0e7fc",
     "background": "#0e0c0b",
     "primary": "#637c8c",
     "secondary": "#3d3e57",
     "accent": "#454f48"
-   },
+  },
   "font": {
-    "link": "https://fonts.googleapis.com/css?family=Noto%20Sans%20Takri:700|Noto%20Sans%20Takri:400",
-    "fontFamily":"Noto Sans Takri"
-    
+    "link": "https://fonts.googleapis.com/css?family=Noto%20Sans%20Takri:700|Noto%20Sans%20Takri:400&display=swap",
+    "fontFamily": "Noto Sans Takri"
   },
   "images": {
     "logo": "logoja.png",
     "coverImage": "capa.png",
-    "print": "O tamanho recomendado é 1200x627 pixels",
-    "favicon": "URL_DO_favicon_AQUI"
+    "printComment": "O tamanho recomendado é 1200x627 pixels",
+    "print": "print.png",
+    "favicon": "favicon.ico"
   },
   "shortName": "JA Drywall",
   "longName": "JA Drywall Soluções em Drywall",
