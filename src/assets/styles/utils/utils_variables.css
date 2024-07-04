@@ -1,0 +1,43 @@
+:root {
+  --spacing: 1rem; /*16px*/
+  --spacing-p: calc(var(--spacing) / 4 * 3); /*0.75rem   12px*/
+  --spacing-pp: calc(var(--spacing) / 4 * 2); /*0.5rem    8px*/
+  --spacing-xp: calc(var(--spacing) / 4 * 1); /*0.25rem   4px*/
+  --spacing-g: calc(var(--spacing) * 4 / 3); /*1.33rem   21.33px*/
+  --spacing-gg: calc(var(--spacing) * 4 / 2); /*2rem      32px*/
+  --spacing-xg: calc(var(--spacing) * 4 / 1); /*4rem      64px*/
+
+  --border-radius: 0.3125rem; /*5px*/
+  --border-radius-p: calc(var(--border-radius) / 2); /*0.15625rem 2.5px*/
+  --border-radius-g: calc(var(--border-radius) * 2); /*0.625rem 10px*/
+  --border-radius-round: 50%;
+
+  --transition: 250ms;
+
+  --shadow-offset-h: 1px;
+  --shadow-offset-v: 1px;
+  --shadow-blur: 8px;
+  --shadow-spread: 2px;
+
+  --box-shadow: var(--shadow-offset-h) var(--shadow-offset-v) var(--shadow-blur)
+    var(--shadow-spread);
+
+  --box-shadow-x-light: var(--shadow-offset-h) var(--shadow-offset-v)
+    calc(var(--shadow-blur) / 8) calc(var(--shadow-spread) / 3);
+
+  --box-shadow-light: var(--shadow-offset-h) var(--shadow-offset-v)
+    calc(var(--shadow-blur) / 2) var(--shadow-spread);
+
+  --box-shadow-heavy: var(--shadow-offset-h) var(--shadow-offset-v)
+    calc(var(--shadow-blur) * 2) calc(var(--shadow-spread) * 1.5);
+
+  --box-shadow-x-heavy: var(--shadow-offset-h) var(--shadow-offset-v)
+    calc(var(--shadow-blur) * 3) calc(var(--shadow-spread) * 2);
+
+}
+
+@media (max-width: 768px) {
+  :root {
+    --spacing: 0.65rem;
+  }
+}

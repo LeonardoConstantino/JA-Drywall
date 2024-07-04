@@ -1,0 +1,140 @@
+main {
+  padding: var(--spacing) var(--spacing-gg);
+}
+
+main section {
+  background: var(--background);
+  color: var(--text);
+  margin-bottom: var(--spacing-gg);
+  padding: var(--spacing-gg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--accent) var(--box-shadow-heavy);
+  text-wrap: balance;
+}
+
+main section h4 {
+  margin-bottom: var(--spacing);
+}
+
+main section.cards {
+  box-shadow: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: var(--spacing-gg);
+}
+
+main section.cards .card,
+main .benefits .card,
+main .testimonials .card {
+  max-width: 300px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: var(--spacing);
+  padding: var(--spacing-gg);
+  border-radius: var(--border-radius);
+  transition: all var(--transition);
+  border: 1px solid var(--text);
+}
+
+main section.cards .card i {
+  background-image: var(--image-url);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: drop-shadow(0px 0px 1px rgba(255, 255, 255, 0.5));
+  display: block;
+  width: var(--spacing-xg);
+  height: var(--spacing-xg);
+}
+
+main section.cards .card h4,
+main section.cards .card p {
+  text-align: center;
+  text-wrap: balance;
+}
+
+main .introduction {
+  padding: var(--spacing) var(--spacing-gg);
+  margin-bottom: var(--spacing-gg);
+}
+
+main .introduction h3 {
+  color: var(--text);
+  text-wrap: balance;
+  text-align: center;
+}
+
+main .summary-benefits {
+  border: 1px solid var(--accent);
+  box-shadow: none;
+}
+
+main .summary-benefits ol {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: var(--spacing);
+}
+
+main .summary-benefits .benefit {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: var(--spacing);
+  padding: var(--spacing);
+  border-radius: var(--border-radius);
+  box-shadow: var(--accent) var(--box-shadow);
+  transition: background var(--transition);
+  counter-increment: index;
+}
+
+main .summary-benefits .benefit::before {
+  content: counter(index);
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+main .summary-benefits .benefit:hover {
+  background: var(--accent);
+}
+
+main .benefits .card:hover {
+  background-color: var(--text);
+  color: var(--background);
+  box-shadow: var(--accent) var(--box-shadow-heavy);
+}
+
+main .testimonials .card {
+  border: 1px solid var(--text);
+  background-color: var(--accent);
+}
+
+main .testimonials .author {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  color: var(--background);
+  gap: var(--spacing-pp);
+}
+
+main .testimonials .avatar {
+  width: var(--spacing-xg);
+  object-fit: contain;
+}
+
+main .testimonials .rating {
+  width: 100%;
+  display: flex;
+  gap: var(--spacing-xp);
+}
+
+main .testimonials .card:hover {
+  box-shadow: var(--accent) var(--box-shadow-heavy);
+}
+
+main .faq {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: var(--spacing);
+}

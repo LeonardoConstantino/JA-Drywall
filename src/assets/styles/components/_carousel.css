@@ -1,0 +1,13 @@
+.carrossel{
+    position: relative;
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.carrossel-item{
+    position: sticky;
+    left: 0;
+    flex-shrink: 0;
+    scroll-behavior: smooth;
+}

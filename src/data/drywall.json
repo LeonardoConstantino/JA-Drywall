@@ -1,0 +1,137 @@
+{
+  "headline": "Transforme Sua Construção com Drywall: Limpeza, Economia e Agilidade!",
+  "subheadline": "Ideal para Construtoras e Proprietários: Eficiência e Sustentabilidade com JA Soluções em Drywall.",
+  "callToAction": "Clique Aqui e Agende Sua Consulta Gratuita!",
+  "body": {
+    "introduction": "Descubra como JA Soluções em Drywall pode revolucionar sua construção. Seja você uma construtora ou alguém que está planejando construir, oferecemos soluções sob medida para suas necessidades.",
+    "summaryResourcesBenefits": [
+      {
+        "title": "Economia de tempo e dinheiro",
+        "description": "Processo ágil e eficiente que economiza tempo e reduz custos."
+      },
+      {
+        "title": "Alta qualidade dos materiais",
+        "description": "Utilização de materiais de alta qualidade garantindo durabilidade e resistência."
+      },
+      {
+        "title": "Suporte técnico especializado",
+        "description": "Suporte durante todas as fases do projeto para garantir resultados impecáveis."
+      }
+    ],
+    "howWork": "Nosso processo de instalação de drywall é simples e eficiente. Iniciamos com uma análise detalhada do projeto e das necessidades do cliente. Em seguida, nossa equipe executa a instalação de acordo com as especificações, garantindo qualidade e precisão em cada etapa.",
+    "FAQ": [
+      {
+        "question": "Como posso agendar uma consulta gratuita?",
+        "answer": "Entre em contato através do nosso formulário online ou ligue para o nosso número de telefone para agendar sua consulta gratuita com um de nossos especialistas."
+      },
+      {
+        "question": "Quais são os benefícios do drywall em comparação com outros métodos de construção?",
+        "answer": "O drywall oferece vantagens significativas como economia de tempo, redução de custos e maior flexibilidade de design em comparação com métodos tradicionais de construção."
+      }
+    ],
+    "featuresBenefits": [
+      {
+        "title": "Construção Limpa",
+        "description": "Nossos métodos minimizam a sujeira e os resíduos, proporcionando um ambiente de trabalho mais limpo e seguro.",
+        "icon": "Limpa.png"
+      },
+      {
+        "title": "Econômico",
+        "description": "Oferecemos um custo-benefício excelente, com materiais de alta qualidade a preços competitivos.",
+        "icon": "Economico.png"
+      },
+      {
+        "title": "Ágil",
+        "description": "Nossa equipe é treinada para realizar a instalação de drywall de forma rápida e eficiente, reduzindo o tempo de construção.",
+        "icon": "Agil.png"
+      },
+      {
+        "title": "Isolamento Acústico e Térmico",
+        "description": "Garantimos um ambiente mais confortável e eficiente energeticamente.",
+        "icon": "Isolamento.png"
+      },
+      {
+        "title": "Flexibilidade de Design",
+        "description": "O drywall permite diversas opções de design, atendendo desde projetos simples até os mais complexos.",
+        "icon": "Flexibilidade.png"
+      },
+      {
+        "title": "Sustentabilidade",
+        "description": "Utilizamos materiais sustentáveis e técnicas que reduzem o impacto ambiental, promovendo construções mais verdes e responsáveis.",
+        "icon": "Sustentabilidade.png"
+      }
+    ],
+    "clientTestimonials": [
+      {
+        "text": "\"Escolher a JA Soluções em Drywall para nosso projeto foi a melhor decisão. A qualidade e rapidez do serviço superaram nossas expectativas.\"",
+        "author": "João Silva, Construtora ABC",
+        "avatar": "joao.png"
+      },
+      {
+        "text": "\"A JA Soluções em Drywall entregou nosso projeto de drywall antes do prazo e com uma qualidade impecável. Recomendo fortemente!\"",
+        "author": "Maria Fernandes, Proprietária",
+        "avatar": "maria.png"
+      },
+      {
+        "text": "\"Trabalhar com a JA Soluções em Drywall foi uma experiência excelente. O serviço de drywall deles é rápido, limpo e eficiente.\"",
+        "author": "Carlos Santos, Construtora XYZ",
+        "avatar": "carlos.png"
+      },
+      {
+        "text": "\"A equipe foi profissional e atenciosa do início ao fim. O resultado final superou nossas expectativas. Obrigado, JA Soluções em Drywall!\"",
+        "author": "Ana Oliveira, Proprietária",
+        "avatar": "ana.png"
+      }
+    ],
+    "contact": {
+      "phone": "553188299039",
+      "email": "seu_email"
+    },
+    "callToActionRepetition": "Não perca tempo! Transforme seu projeto com nossa solução em drywall. Entre em contato agora mesmo para uma consulta gratuita e descubra como JA Soluções em Drywall pode ajudar você a construir de forma limpa, econômica e ágil.",
+    "callToActionFinal": "Clique Aqui e Agende Sua Consulta Gratuita!"
+  },
+  "colors":{
+    "text": "#03293e",
+    "background": "#f4f2f1",
+    "primary": "#728a9a",
+    "secondary": "#a9aac2",
+    "accent": "#afbab2"
+   },
+   "darkColors": {
+    "text": "#c0e7fc",
+    "background": "#0e0c0b",
+    "primary": "#637c8c",
+    "secondary": "#3d3e57",
+    "accent": "#454f48"
+   },
+  "font": {
+    "link": "https://fonts.googleapis.com/css?family=Noto%20Sans%20Takri:700|Noto%20Sans%20Takri:400",
+    "fontFamily":"Noto Sans Takri"
+    
+  },
+  "images": {
+    "logo": "logoja.png",
+    "coverImage": "capa.png",
+    "print": "O tamanho recomendado é 1200x627 pixels",
+    "favicon": "URL_DO_favicon_AQUI"
+  },
+  "shortName": "JA Drywall",
+  "longName": "JA Drywall Soluções em Drywall",
+  "about": "A JA Soluções em Drywall é líder no mercado de serviços de drywall, oferecendo soluções inovadoras e eficientes para construtoras e proprietários. Com mais de 10 anos de experiência, nossa missão é proporcionar construções mais limpas, rápidas e econômicas, mantendo um compromisso constante com a qualidade e a satisfação do cliente.",
+  "keyWords": [
+    "JA Drywall",
+    "JA Soluções em Drywall",
+    "líder no mercado",
+    "serviços de drywall",
+    "soluções inovadoras",
+    "soluções eficientes",
+    "construtoras",
+    "proprietários",
+    "10 anos de experiência",
+    "construções limpas",
+    "construções rápidas",
+    "construções econômicas",
+    "compromisso com a qualidade",
+    "satisfação do cliente"
+  ]
+}
