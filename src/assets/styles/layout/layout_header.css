@@ -18,8 +18,8 @@ header.hero-image {
 }
 
 header .hero-logo {
-  /* width: 8rem; */
   width: calc(var(--spacing-xg) * 2);
+  animation: var(--entrance-right);
 }
 
 header .hero-logo img {
@@ -41,6 +41,7 @@ header .hero-text {
   border-radius: var(--border-radius);
   padding: var(--spacing);
   width: 100%;
+  animation: var(--entrance-left);
 }
 
 header .hero-text--headline,
@@ -51,14 +52,17 @@ header .hero-text--subheadline {
 header .hero-text--headline {
   font-size: 3.266rem;
   margin-bottom: var(--spacing-pp);
+  animation: var(--entrance-left) 150ms;
 }
 
 header .hero-text--subheadline {
   font-size: 2.425rem;
+  animation: var(--entrance-left) 250ms;
 }
 
 header .hero-cta {
   text-align: center;
+  animation: var(--entrance-bottom) 350ms;
 }
 
 header .hero-cta span {

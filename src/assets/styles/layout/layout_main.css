@@ -58,6 +58,11 @@ main section.cards .card p {
 main .introduction {
   padding: var(--spacing) var(--spacing-gg);
   margin-bottom: var(--spacing-gg);
+  animation: var(--entrance-right) 450ms;
+}
+
+main .about {
+  animation: var(--entrance-bottom) 550ms;
 }
 
 main .introduction h3 {

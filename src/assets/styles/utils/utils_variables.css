@@ -13,10 +13,23 @@
   --border-radius-round: 50%;
 
   --transition: 250ms;
-  --animation-shake: shake-bottom 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-    infinite;
-  --animation-shake-cta: shake-bottom 2.5s
-    cubic-bezier(0.455, 0.03, 0.515, 0.955) 5s 10 both;
+
+  --animation-shake: shake-bottom 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+
+  --transition-entrance: 500ms;
+  --entrance-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  --entrance-top: slide-in-top var(--transition-entrance)
+    var(--entrance-timing-function) both;
+
+  --entrance-left: slide-in-left var(--transition-entrance)
+    var(--entrance-timing-function) both;
+
+  --entrance-right: slide-in-right var(--transition-entrance)
+    var(--entrance-timing-function) both;
+
+  --entrance-bottom: slide-in-bottom var(--transition-entrance)
+  var(--entrance-timing-function) both;
 
   --shadow-offset-h: 1px;
   --shadow-offset-v: 1px;
