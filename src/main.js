@@ -12,8 +12,8 @@ const loadApp = () => {
 
     // Renderiza os componentes principais da aplicação
     setTimeout(() => {
-      load.remove()
       renderElement(homePage, true, app)
+      load.remove()
     }, 700)
   } catch (error) {
     console.error('Erro ao renderizar página:', error.message)

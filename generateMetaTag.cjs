@@ -52,7 +52,7 @@ const generateMetaTag = async () => {
           --background: ${data.colors.background};
           --primary: ${data.colors.primary};
           --secondary: ${data.colors.secondary};
-          --accent: ${data.colors.accent}
+          --accent: ${data.colors.accent};
         }
 
         body {

@@ -55,15 +55,18 @@ const getAnchor = (link, nome) => {
 const componentEMail = getComponent(
   'li',
   getIconComponet(eMail),
-  getAnchor(data.body.contact.email, `E-mail: ${data.body.contact.email}`)
+  getAnchor(
+    `mailto:${data.body.contact.email}`,
+    `E-mail: ${data.body.contact.email}`
+  )
 )
 
 const componentInsta = getComponent(
   'li',
   getIconComponet(instagram),
   getAnchor(
-    'https://www.instagram.com/drywall.ja?igsh=MmQwZW0xZTJscXNw',
-    'Instagram: @drywall.ja'
+    `${data.body.contact.instagram}`,
+    `Instagram: @${data.body.contact.instagram.split('/')[3]}`
   )
 )
 
@@ -71,7 +74,7 @@ const componentWhatsapp = getComponent(
   'li',
   getIconComponet(whatsappIcon),
   getAnchor(
-    `https://api.whatsapp.com/send?phone=${data.body.contact.phone}`,
+    `https://api.whatsapp.com/send?phone=${data.body.contact.phone}&text=Ola!%20Gostaria%20de%20fazer%20um%20orçamento%20sem%20compromisso.`,
     `Fernando: ${formatPhoneNumber(data.body.contact.phone)}`
   )
 )
