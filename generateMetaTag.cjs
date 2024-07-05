@@ -6,11 +6,11 @@ const filePath = path.join(`${__dirname}/index.html`)
 
 const generateMetaTag = async () => {
   try {
-      const index = await fs.readFile(filePath, 'utf8')
-      const datajson = await fs.readFile(pathData, 'utf8')
-      const data = JSON.parse(datajson)
+    const index = await fs.readFile(filePath, 'utf8')
+    const datajson = await fs.readFile(pathData, 'utf8')
+    const data = JSON.parse(datajson)
 
-      const headTag = `<head>
+    const headTag = `<head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>"${data.longName}"</title>
@@ -29,13 +29,15 @@ const generateMetaTag = async () => {
       <meta property="og:url" content="">
       <meta property="og:title" content="${data.longName}">
       <meta property="og:description" content="${data.about}">
-      <meta property="og:image" content="./src/assets/images/${data.images.print}">
+      <meta property="og:image" content="https://raw.githubusercontent.com/LeonardoConstantino/JA-Drywall/main/src/assets/images/${
+        data.images.print
+      }">
       <!-- Twitter -->
       <meta property="twitter:card" content="summary_large_image">
       <meta property="twitter:url" content="">
       <meta property="twitter:title" content="${data.longName}">
       <meta property="twitter:description" content="${data.about}" >
-      <meta property="twitter:image" content="./src/assets/images/${
+      <meta property="twitter:image" content="https://raw.githubusercontent.com/LeonardoConstantino/JA-Drywall/main/src/assets/images/${
         data.images.print
       }">
       <link rel="shortcut icon" href="./src/assets/images/${
