@@ -81,7 +81,7 @@ Autor: Leonardo H. Constantino
 </div>
 
 <div align='center'>
-    <img src='https://raw.githubusercontent.com/LeonardoConstantino/JA-Drywall/master/src/assets/images/print.jpg' alt='Sample screenshot' width='400'>
+    <img src='https://raw.githubusercontent.com/LeonardoConstantino/JA-Drywall/master/src/assets/images/print.png' alt='Sample screenshot' width='400'>
 </div>
 
 #### Se precisar de alguma informação sobre o projeto estou a disposição, avise-me!
