@@ -64,7 +64,7 @@ Autor: Leonardo H. Constantino
 
 ![Linguagem mais utilizada](https://img.shields.io/github/languages/top/LeonardoConstantino/JA-Drywall)
 
-[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+<!--[![License](https://img.shields.io/badge/License-MIT-blue)](#license) -->
 
 </div>
 
